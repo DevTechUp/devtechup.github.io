@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.devtechup.com/"/>
-  <updated>2017-07-14T13:19:25.000Z</updated>
+  <updated>2017-08-01T16:42:09.000Z</updated>
   <id>https://www.devtechup.com/</id>
   
   <author>
@@ -16,35 +16,52 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://www.devtechup.com/2017/07/13/hello-world/"/>
-    <id>https://www.devtechup.com/2017/07/13/hello-world/</id>
-    <published>2017-07-13T02:47:00.000Z</published>
-    <updated>2017-07-14T13:19:25.000Z</updated>
+    <title>Best code review tool recommended</title>
+    <link href="https://www.devtechup.com/2017/08/03/Code-Review-tool-recommended/"/>
+    <id>https://www.devtechup.com/2017/08/03/Code-Review-tool-recommended/</id>
+    <published>2017-08-02T16:19:00.000Z</published>
+    <updated>2017-08-01T16:42:09.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+    <content type="html"><![CDATA[<blockquote>
+<p>Recently thinking about a question, how to carry out efficient codereview, there is no good tool can be used, so spent two or three days in Google Amoy a lot, here left a record.</p>
+</blockquote>
+<h2 id="Phabricator"><a href="#Phabricator" class="headerlink" title="Phabricator"></a><a href="https://www.phacility.com/" target="_blank" rel="external">Phabricator</a></h2><p>The first codereview tool, of course, is not limited to codereview, this tool I experienced the next, the function is very powerful. In addition to codereview, there are tasks, bug management, wiki management, project management and other functions, but also custom features, the interface is also very refreshing. Personally feel that there is almost nothing to picky place, if just need a set of tools with each other team, choose this is wrong. (If it is me, I am more inclined to this tool)</p>
+<ul>
+<li><a href="https://secure.phabricator.com/" target="_blank" rel="external">Experience Phabricator</a></li>
+</ul>
+<p><img src="https://i.imgur.com/L3D68Af.png" alt=""></p>
+<h2 id="ReviewNinja"><a href="#ReviewNinja" class="headerlink" title="ReviewNinja"></a><a href="https://github.com/reviewninja/review.ninja" target="_blank" rel="external">ReviewNinja</a></h2><p>Just began to experience this tool, purely because of curiosity, was attracted to the name: English Japanese pronunciation, plus I was a fire fan … … experience after feeling really good.</p>
+<p>This tool is very lightweight, and only supports github, it is suitable for individuals, small teams to use. Focus on the codereview this function, the interface is also very refreshing, you can through some special comment symbols to github merge button to produce changes in response, but also change the github pr checks. If my scene is only github, then i would choose to use this tool, access is also very simple, open source free.</p>
+<h2 id="Codacy"><a href="#Codacy" class="headerlink" title="Codacy"></a><a href="https://www.codacy.com/" target="_blank" rel="external">Codacy</a></h2><p>This tool is a bit like Phabricator, but this tool has the code quality statistics and suggestions, there are analysis, codereview function is also very full, there dashboard can list the various indicators of the project, very praise, the key is that this tool can dock github, bitbucket , Jira and Jenkins, but also docking hipchat and slack, etc., the function is very powerful, it is worth a good look. Personally feel that this tool is very broad scope of application, some of the quality of the project is not only limited to codereview can try to use a github on the public warehouse is free.</p>
+<ul>
+<li><a href="https://www.codacy.com/features" target="_blank" rel="external">Features</a></li>
+<li><a href="https://www.codacy.com/app/403164405/reading/dashboard" target="_blank" rel="external">Codacy experience</a></li>
+</ul>
+<h2 id="RhodeCode"><a href="#RhodeCode" class="headerlink" title="RhodeCode"></a><a href="https://rhodecode.com/" target="_blank" rel="external">RhodeCode</a></h2><p>Support git, svn, multi-warehouse management, interface experience is also relatively refreshing, features and codacy have a lot of overlap.</p>
+<ul>
+<li><a href="https://rhodecode.com/features" target="_blank" rel="external">RhodeCode Features</a></li>
+<li><a href="https://try.rhodecode.com/" target="_blank" rel="external">Demo</a></li>
+</ul>
+<h2 id="Gerrit"><a href="#Gerrit" class="headerlink" title="Gerrit"></a><a href="https://www.gerritcodereview.com/" target="_blank" rel="external">Gerrit</a></h2><p>This is Google open source codereview tool, and Phabricator go hand in hand, but also very strong, but I personally do not like this interface style … … I do not have to go through this, just read some of the official website information, function does not lose Phabricator. Like a friend can go to experience a.</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      &lt;blockquote&gt;
+&lt;p&gt;Recently thinking about a question, how to carry out efficient codereview, there is no good tool can be used, so spent two o
     
     </summary>
     
-      <category term="Sports" scheme="https://www.devtechup.com/categories/Sports/"/>
+      <category term="Tool" scheme="https://www.devtechup.com/categories/Tool/"/>
+    
+      <category term="Code review" scheme="https://www.devtechup.com/categories/Tool/Code-review/"/>
     
     
-      <category term="wtf" scheme="https://www.devtechup.com/tags/wtf/"/>
+      <category term="code review" scheme="https://www.devtechup.com/tags/code-review/"/>
     
-      <category term="fuck" scheme="https://www.devtechup.com/tags/fuck/"/>
+      <category term="code" scheme="https://www.devtechup.com/tags/code/"/>
+    
+      <category term="tool" scheme="https://www.devtechup.com/tags/tool/"/>
     
   </entry>
   

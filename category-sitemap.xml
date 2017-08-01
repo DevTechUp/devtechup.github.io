@@ -7,8 +7,15 @@
     </url>
 
     <url>
-        <loc>https://www.devtechup.com/categories/Sports/</loc>
-        <lastmod>2017-07-14T13:19:25.000Z</lastmod>
+        <loc>https://www.devtechup.com/categories/Tool/</loc>
+        <lastmod>2017-08-01T16:42:09.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://www.devtechup.com/categories/Tool/Code-review/</loc>
+        <lastmod>2017-08-01T16:42:09.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
